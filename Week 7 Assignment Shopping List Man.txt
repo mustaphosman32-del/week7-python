@@ -1,0 +1,45 @@
+Week 7 Assignment: Shopping List Manager
+Description
+
+This project is a Python assignment that demonstrates how to work with lists. It covers creating lists, accessing items, adding and removing items, checking membership, looping through lists, and generating a simple report.
+
+Files
+list_warmup.py
+
+Demonstrates list creation, index access, .append(), .remove(), and len().
+
+shopping_list.py
+
+An interactive shopping list manager that allows users to add, remove, show, and finish their shopping list.
+
+list_report.py
+
+Generates a report by numbering the shopping items, counting items with more than four characters, and finding the longest item name using a loop.
+
+screenshots/
+
+Contains screenshots showing the output of each Python program running successfully.
+
+Why Check in Before .remove()?
+
+It is safer to check if an item is in the list before using .remove() because .remove() causes an error when the item does not exist. Using in prevents the program from crashing and allows it to give the user a helpful message instead.
+
+Author
+
+Salah Omar
+
+Repository
+
+plp-python-week7
+
+Skills Practiced
+Creating and accessing Python lists
+Using list indexes
+Using .append()
+Using .remove()
+Using in
+Using len()
+Using for loops
+Using if statements
+Comparing values in a loop
+Building a simple interactive program
